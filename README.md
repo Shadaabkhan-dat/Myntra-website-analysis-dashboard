@@ -7,45 +7,30 @@ Over the span of 7 days, product data was scraped daily to capture real-time pri
 
  Key Features
 
-Automated Web Scraping
+--Automated Web Scraping
+--Python + Selenium were used to scrape Myntra product details daily.
+--Extracted fields: Brand, Product Name, Price, Original Price, Discount, Category, Date, Gender.
 
-Python + Selenium were used to scrape Myntra product details daily.
+1.Data Processing & Storage
+2.Data cleaned and organized in Excel format.
+3.Includes both raw and processed datasets for reproducibility.
 
-Extracted fields: Brand, Product Name, Price, Original Price, Discount, Category, Date, Gender.
-
-Data Processing & Storage
-
-Data cleaned and organized in Excel format.
-
-Includes both raw and processed datasets for reproducibility.
-
-Power BI Dashboard
-
-Built interactive dashboards to explore:
+--Built interactive Power BI dashboards to explore:
 
 1. Top Brands & Categories by product count and discounts.
-
-2.Price vs. Discount distribution to analyze pricing strategies.
-
+2. Price vs. Discount distribution to analyze pricing strategies.
 3. Gender-based product availability and discounts.
+4. Daily trends in price and discounts over one week.
+5. Top 10 discounted brands/products for quick insights.
 
-4 Daily trends in price and discounts over one week.
+--Tech Stack
 
-5 Top 10 discounted brands/products for quick insights.
+1.Python (Selenium, Pandas) – Web scraping & data processing
+2.Excel – Data storage and cleaning
+3.Power BI – Dashboard & visualization
 
-Tech Stack
-
-Python (Selenium, Pandas) – Web scraping & data processing
-
-Excel – Data storage and cleaning
-
-Power BI – Dashboard & visualization
-Insights Gained
-
-Which brands offer the highest discounts.
-
-How discounts vary across genders and categories.
-
-Pricing strategies of top fashion brands.
-
-Daily fluctuations in discounts and product prices.
+--Insights Gained
+1.Which brands offer the highest discounts.
+2.How discounts vary across genders and categories.
+3.Pricing strategies of top fashion brands.
+4.Daily fluctuations in discounts and product prices.
